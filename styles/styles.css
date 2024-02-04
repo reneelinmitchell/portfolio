@@ -1,12 +1,33 @@
-.section1 h1 {
-	font-size: 50px;
-	color: blue;
+.header-section {
+	background-image: url("../images/fireworks.jpg");
+	background-repeat:  no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
 }
 
-.section1 img {
+.header-section h1 {
+	font-size: 80px;
+	color: floralwhite;
+	position: relative;
+	padding-top: 450px;
+	padding-left: 20px;
+}
+
+.intro-section {
+	display: inline-flex;
+}
+
+.Maine-image img {
 	position:  relative;
 	display:  inline-block;
 	float: left;
 	width: 500px;
 	height: 600px;
+}
+
+.about-me {
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
 }

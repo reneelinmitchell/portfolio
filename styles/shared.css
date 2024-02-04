@@ -1,0 +1,7 @@
+/* whatever ends up shared across both should go here! */
+.navbar {
+	position: fixed;
+	z-index: 999999999;
+	top: 0;
+	width: 100%;
+}
